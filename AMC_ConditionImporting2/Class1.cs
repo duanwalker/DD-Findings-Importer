@@ -117,6 +117,11 @@ namespace AMC_ConditionImporting2
                     Loan.Fields["CX.UNDERWRITING.ERROR"].Value = ex;
                     Macro.Alert("Importing process error, conditions not imported, contact Encompass team for assistance.");
                 }
+                finally
+                {
+                    //look into adding the assembly version number to the form for reference
+                    //typeof(ConditionImporting).Assembly.GetName().Version;
+                }
             }
 
         } //button1_click
