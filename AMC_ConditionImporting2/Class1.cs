@@ -92,7 +92,7 @@ namespace AMC_ConditionImporting2
                                         UnderwritingCondition underwritingCondition = Loan.Log.UnderwritingConditions.Add(Loan.LoanName);
                                         underwritingCondition.Title = "Due Diligence Finding";
                                         underwritingCondition.Source = "Exception Grade " + range.Cells[row, 20].Value.ToString() + " (AMC Condition Importer)";
-                                        underwritingCondition.Description = range.Cells[row, 15].Value + " - " + range.Cells[row, 21].Value + " - " + range.Cells[row, 23].Value;
+                                        underwritingCondition.Description = range.Cells[row, 21].Value + " - " + range.Cells[row, 23].Value + " - " + range.Cells[row, 22].Value;
                                         underwritingCondition.ForExternalUse = false;
                                         underwritingCondition.ForInternalUse = true;
 

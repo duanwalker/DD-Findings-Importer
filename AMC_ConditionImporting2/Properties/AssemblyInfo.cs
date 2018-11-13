@@ -36,5 +36,6 @@ using System.Runtime.InteropServices;
 // 2.0.1.1 - Initial release to production
 // 2.0.1.10 - Update to account for cell type variations in the spreadsheet
 // 2.0.1.13 - Updated FOR logic
-[assembly: AssemblyVersion("2.0.1.13")]
-[assembly: AssemblyFileVersion("2.0.1.13")]
+// 2.0.2.0 - Correct Condition Description to read the correct columns in the spreadsheet
+[assembly: AssemblyVersion("2.0.2.0")]
+[assembly: AssemblyFileVersion("2.0.2.0")]
